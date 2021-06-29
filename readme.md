@@ -1,4 +1,4 @@
-<h1 align="center">netlify-plugin-image-optim</h1>
+<h1 align="center">netlify-plugin-image-optim-fork</h1>
 
 <div align="center">
 
@@ -14,7 +14,7 @@ To use file-based installation, add the following lines to your `netlify.toml` f
 
 ```toml
 [[plugins]]
-package = "netlify-plugin-image-optim"
+package = "netlify-plugin-image-optim-fork"
 ```
 
 Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
@@ -22,5 +22,5 @@ Note: The `[[plugins]]` line is required for each plugin, even if you have other
 To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add this plugin to `devDependencies` in `package.json`.
 
 ```
-npm install -D netlify-plugin-image-optim
+npm install -D netlify-plugin-image-optim-fork
 ```

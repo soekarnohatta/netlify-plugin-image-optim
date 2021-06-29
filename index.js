@@ -14,7 +14,7 @@ const jpegtran = require("imagemin-jpegtran");
 module.exports = {
     onPostBuild: async config => {
       const files = {};
-      const glob = `${config.constants.PUBLISH_DIR}/**/*.{gif,jpg,jpeg,png,svg}`;
+      const glob = `${config.constants.PUBLISH_DIR}/**/*.{gif,jpg,jpeg,png,svg,GIF,JPG,JPEG,PNG,SVG}`;
       const paths = await globby(glob);
 
       paths.map(path => {
